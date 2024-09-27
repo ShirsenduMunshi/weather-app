@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <form action="#">
+            <input type="text" id="city-name" placeholder="Enter Your City">
+            <input type="submit" value="Get weather"></input>
+        </form>
+        <div class="weather-data">
+            <div class="icon">
+                <!-- <img src="https://openweathermap.org/img/wn/01d.png" alt="icon"> -->
+            </div>
+            <!-- <div class="temp">35°C</div>
+            <div class="desc">haze</div> -->
+            <div class="temp"></div>
+            <div class="desc"></div>
+            <div class="details">
+                <!-- <div class="feels-like">Feels Like: 35°C</div>
+                <div class="humidity">Humidity: 45%</div>
+                <div class="wind-speed">Wind Speed: 5 m/s</div> -->
+                <div class="feels-like"></div>
+                <div class="humidity"></div>
+                <div class="wind-speed"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./registering.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
